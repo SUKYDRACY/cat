@@ -1,37 +1,55 @@
-## Welcome to GitHub Pages
 
-You can use the [editor on GitHub](https://github.com/SUKYDRACY/cat/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>好像对你说</title>
+<style type="text/css">
+body {
+	background-image: url(chifan.jpg);
+	background-size:100% 100%;
+	height:100%
+}
+#biaobai {
+	font-size: 136px;
+	text-align:center;
+	margin:140px;
+	color:red;
+}
+div
+{
+animation:myfirst 5s;
+-moz-animation:myfirst 5s; /* Firefox */
+-webkit-animation:myfirst 5s; /* Safari and Chrome */
+-o-animation:myfirst 5s; /* Opera */
+}
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+@keyframes myfirst
+{
+from {opacity:0;}
+to {opacity:100%;}
+}
 
-### Markdown
+@-moz-keyframes myfirst /* Firefox */
+{
+from {opacity:0;}
+to {opacity:100%;}
+}
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+@-webkit-keyframes myfirst /* Safari and Chrome */
+{
+from {opacity:0;}
+to {opacity:100%;}
+}
 
-```markdown
-Syntax highlighted code block
+@-o-keyframes myfirst /* Opera */
+{
+from {opacity:0;}
+to {opacity:100%;}
+}
+</style></head>
 
-# Header 1
-## Header 2
-### Header 3
+<body id="biaobai">
+<div> 我们一起吃饭吧，你请客，我等好久啦~</div>
 
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/SUKYDRACY/cat/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+</body>
+</html>
